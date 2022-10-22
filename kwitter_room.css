@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 20s;
+}
+
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4em;
+    color:aqua;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+@keyframes bgcolor{
+0%
+{
+    background: #1ABC9C;
+}
+10%
+{
+    background:	#16A085;
+}
+20%
+{
+    background: #2ECC71;
+}    
+30%
+{
+    background: #27AE60;
+}   
+40%
+{
+    background: #3498DB;
+}    
+50%
+{
+    background: #2980B9;
+}
+60%
+{
+    background: #3498DB;
+}
+70%
+{
+    background: #27AE60;
+} 
+80%
+{
+    background: #2ECC71;
+}
+90%
+{
+    background:	#16A085;
+}
+100%
+{
+    background: #1ABC9C;
+}
+}
+
+
+input[type=text]{
+    top: 50%;
+    left: 70%;
+    height: 30px;
+    width: 300px;
+    border-radius: 75px;
+}
+
+#roomNameButton{
+    background-color: black;
+    border-radius: 100px;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+
+}
+
+#logout_button{
+position: absolute;
+top: 5;
+left: 95%;
+transform: translate(-50%,-50%);
+}
+
+
+#room
+{
+    position:fixed;
+    top: 48%;
+    left: 68%;
+}
+
+img{
+    border-radius: 100%;
+    width: 650px;
+    height: 600px;
+    position: fixed;
+    top: 20%;
+}
+
+#room:hover{
+    width: 8%;
+    height: 3%;
+}
